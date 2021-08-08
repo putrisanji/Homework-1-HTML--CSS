@@ -1,0 +1,136 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.name{
+  background-image:url(https://th.bing.com/th/id/R.83ae52c631b227bc04714f73753cf9b7?rik=bzegwbJkcsJInQ&riu=http%3a%2f%2fdoramaever.com%2fwp-content%2fuploads%2f2019%2f05%2f1493012562Gallery_h_kr_09.jpg&ehk=zi3Wg6X7toK4YlJ%2f%2bBrN%2f9WzMCwKEo6K887gBHRmQm0%3d&risl=&pid=ImgRaw&r=0);
+  background-size:cover;
+  padding-top:200px;
+  padding-bottom: 25px;
+  text-align:center;
+  color:black;
+  height: 397px;
+   
+}
+
+.name h1{
+  font-size:75px;
+  letter-spacing:5px;
+  margin-bottom: 20px;
+  padding-top:250px;
+  
+}
+.name p{
+  font-size: 28px;
+  margin-bottom:3px;
+  font-weight: bold;
+}
+.profile {
+  background-color: whitesmoke;
+  height: 625px;
+}
+.imgprof {
+  height:625px;
+  width:40%;
+  float:left;
+}
+.deskripsi {
+  float: right;
+  display: block;
+  width: 50%;
+  padding: 40px 0px;
+  margin-right: 40px;
+  margin-left: 80px;
+}
+.deskripsi h2{
+  font-size: 45px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.deskripsi p{
+  font-size: 18px;
+  padding-bottom: 27px;
+  padding-right: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  
+}
+.Info {
+  padding: 12px 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color:#3e4444;
+  margin-top:15px;
+  font-size: 15px;
+}
+.Info:hover {
+  opacity: 1;
+}
+.karya {
+  background-color: #e3c648;
+}
+.karya h2{
+  padding: 60px 40px 60px 40px;
+  font-size: 45px;
+  text-align: center;
+}
+.Dramas {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  padding-left: 80px;
+}
+.drama {
+  float:left;
+  width:30%; 
+}
+.gambar {
+  padding-bottom: 10px;
+}
+.teks {
+  margin-bottom: 20px;
+}
+.teks h3{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.teks p{
+  font-size: 15px;
+}
+.vidio{
+  background-color:whitesmoke;
+  padding: 25px 20px;
+}
+.vidio h2{
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.vidio p{
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.Aloha {
+  display: flex;
+  justify-content: center;
+}
+
